@@ -34,6 +34,10 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 _email = email.getText().toString();
                 _pass = password.getText().toString();
+
+                Intent intent = new Intent(LoginActivity.this,DashboardActivity.class);
+                startActivity(intent);
+
             }
         });
 

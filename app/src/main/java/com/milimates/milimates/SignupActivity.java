@@ -37,6 +37,9 @@ public class SignupActivity extends AppCompatActivity {
                 _email = email.getText().toString();
                 _pass = password.getText().toString();
                 _confirmpass = confirm_pass.getText().toString();
+
+                Intent intent = new Intent(SignupActivity.this,DashboardActivity.class);
+                startActivity(intent);
             }
         });
 

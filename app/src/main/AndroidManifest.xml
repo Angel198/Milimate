@@ -9,12 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Milimates">
-        <activity android:name=".SignupActivity"
-            android:theme="@style/Theme.Milimates"></activity>
-        <activity android:name=".LoginActivity"
-            android:theme="@style/Theme.Milimates"/>
-        <activity android:name=".MainActivity"
-            android:theme="@style/Theme.Milimates"/>
+        <activity android:name=".DashboardActivity"></activity>
+        <activity
+            android:name=".SignupActivity"
+            android:theme="@style/Theme.Milimates" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/Theme.Milimates" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.Milimates" />
         <activity
             android:name=".SplashActivity"
             android:theme="@style/Theme.Milimates">
